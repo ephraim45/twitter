@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="https://kit.fontawesome.com/c9ca0ce6d7.js" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div class="main">
+        <div class="one">
+            <div class="cont">
+                <i class="fa-brands fa-twitter" style="color: #6197f5;"></i>
+                <h4 class="fa-solid fa-house" style="color: #070709;"><a href=""></a>Home</h4>
+                <h4 class="fa-solid fa-hashtag" style="color: #070709;">Explore</h4>
+                <h4 class="fa-solid fa-envelope" style="color: #070709;">Messages</h4>
+                <h4 class="fa-solid fa-user" style="color: #090a0b;"><a href="/profie.html"><span style="color: #090a0b;">Profile</span></a></h4>
+                <h4 class="fa-solid fa-ellipsis" style="color: #0a0a0b;">More</h4>
+                <button id="out">log out</button>
+                <img src="/images/profie.png" alt="">
+            </div>
+        </div>
+        <div class="mid">
+            <h2>Home</h2>
+            <div class="cont2">
+                <img class="profile"  src="" alt="">
+                <!-- <h2>Whats Happening?</h2> -->
+                <textarea name="" id="tweet" placeholder="What&apos;s Happening?"></textarea>
+                <button id="sendTweet">Tweet</button>
+            </div>    
+            <div class="von" id="tweetContainer">
+                <div class="end">
+                    <img class="pic"   src="" alt="">
+                    <p id="name">test two</p>
+                    <p>test anime</p>
+                    <i class="fa-regular fa-message">0</i>
+                    <i class="fa-solid fa-retweet">0</i>
+                    <i class="fa-regular fa-heart">0</i>
+                </div>
+                
+        </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-storage.js"></script>
+    <script src="/javascript/config.js"></script>
+    <script src="/javascript/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.maindec {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.leftdec {
+    height: 100%;
+    width: 80%;
+}
+
+.leftdec img{
+    height: 100%;
+    width: 80%;
+}
+.rightdec {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    justify-content: center;
+    margin-top: 150px;
+
+}
+.put {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    
+}
+.put button{
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+    margin: 15px 0;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+.put input{
+    height: 30px;
+}
+
+
